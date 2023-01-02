@@ -1,0 +1,21 @@
+{
+  "name": "barbie-sherbet",
+  "displayName": "barbie-sherbet",
+  "description": "Barbie inspired color palette for VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Barbie Sherbet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Barbie Sherbet-color-theme.json"
+      }
+    ]
+  }
+}
