@@ -206,7 +206,6 @@
   "tokenColors": [
     {
       "scope": [
-        "variable",
         "string constant.other.placeholder",
         "invalid.deprecated",
         "keyword",
@@ -276,7 +275,7 @@
         "entity.name.tag.reference.scss"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#FFD4FD"
       }
     },
     {
@@ -297,8 +296,6 @@
         "punctuation.definition.entity.css",
         "keyword.operator.assignment.js",
         "punctuation.separator.comma.js",
-        "punctuation.definition.string.begin.js",
-        "punctuation.definition.string.end.js",
         "punctuation.definition.binding-pattern.object.js"
       ],
       "settings": {
@@ -325,7 +322,8 @@
         "punctuation.definition.comment.scss",
         "punctuation.definition.comment.js",
         "punctuation.definition.comment.html",
-        "comment.block.html"
+        "comment.block.html",
+        "comment.block.js"
       ],
       "settings": {
         "foreground": "#6272a4"
@@ -339,12 +337,15 @@
     },
     {
       "scope": [
-        "entity.name.tag",
         "meta.tag.sgml",
-        "markup.deleted.git_gutter"
+        "markup.deleted.git_gutter",
+        "variable.other.constant.js",
+        "variable.other.readwrite.js",
+        "variable"
       ],
       "settings": {
-        "foreground": "#45fefb"
+        "foreground": "#FE5AEF",
+        "fontStyle": ""
       }
     },
     {
@@ -356,19 +357,10 @@
     {
       "scope": [
         "variable.parameter.js",
-        "variable.parameter.keyframe-list.css"
-      ],
-      "settings": {
-        "foreground": "#BE6CFF"
-      }
-    },
-    {
-      "scope": [
-        "variable.other.object.js",
+        "variable.parameter.keyframe-list.css",
+        "storage.type.function.js",
         "storage.type.js",
-        "string.other.link.title.markdown",
-        "variable.other.readwrite.js",
-        "variable.other.property.js"
+        "variable.other.object.js"
       ],
       "settings": {
         "foreground": "#FE5AEF",
@@ -376,7 +368,26 @@
       }
     },
     {
-      "scope": ["string.quoted.single.js", "string.quoted.double.js"],
+      "scope": [
+        "string.other.link.title.markdown",
+        "variable.other.object.property.js",
+        "variable.other.property.js"
+      ],
+      "settings": {
+        "foreground": "#FFD4FD",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.single.js",
+        "string.quoted.double.js",
+        "string.template.js",
+        "punctuation.definition.string.begin.js",
+        "punctuation.definition.string.end.js",
+        "punctuation.definition.string.template.begin.js",
+        "punctuation.definition.string.template.end.js"
+      ],
       "settings": {
         "foreground": "#fefb45"
       }
@@ -385,8 +396,6 @@
       "scope": [
         "string",
         "string.quoted.double.html",
-        "variable.other.constant.js",
-        "variable.other.object.property.js",
         "string.quoted.double.json",
         "markup.fenced_code.block.markdown",
         "markup.inline.raw.string.markdown",
@@ -430,7 +439,8 @@
         "constant.escape",
         "keyword.other.unit",
         "keyword.other",
-        "punctuation.separator.key-value.html"
+        "punctuation.separator.key-value.html",
+        "meta.brace.round"
       ],
       "settings": {
         "foreground": "#BE6CFF"
@@ -465,6 +475,7 @@
     {
       "scope": [
         "entity.name",
+        "entity.name.tag",
         "support.type",
         "support.class",
         "support.orther.namespace.use.php",
@@ -511,7 +522,8 @@
       "scope": [
         "entity.name.method.js",
         "tag.decorator.js entity.name.tag.js",
-        "tag.decorator.js punctuation.definition.tag.js"
+        "tag.decorator.js punctuation.definition.tag.js",
+        "meta.object-literal.key"
       ],
       "settings": {
         "foreground": "#FFD4FD",
@@ -532,13 +544,11 @@
         "entity.name.tag.css",
         "keyword.control.conditional.js",
         "support.constant",
-        "entity.other.attribute-name.html",
-
-        "storage.type.function.js",
-        "meta.object-literal.key"
+        "entity.other.attribute-name.html"
       ],
       "settings": {
-        "foreground": "#50FA7B"
+        "foreground": "#50FA7B",
+        "fontStyle": "italic"
       }
     },
     {
