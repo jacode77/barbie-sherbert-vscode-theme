@@ -6,7 +6,7 @@
     "activityBar.background": "#000000",
     "activityBar.border": "#00000060",
     "activityBar.foreground": "#FE5AEF",
-    "activityBarBadge.background": "#FFFC0E",
+    "activityBarBadge.background": "#FFD4FD",
     "activityBarBadge.foreground": "#000000",
     "badge.background": "#00000030",
     "badge.foreground": "#FF1092",
@@ -225,7 +225,8 @@
         "punctuation.definition.interpolation.begin.bracket.curly.scss"
       ],
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#489AF2"
       }
     },
     {
@@ -389,7 +390,7 @@
         "punctuation.definition.string.template.end.js"
       ],
       "settings": {
-        "foreground": "#fefb45"
+        "foreground": "#FFFC0E"
       }
     },
     {
@@ -650,7 +651,7 @@
     {
       "scope": ["markup.underline"],
       "settings": {
-        "foreground": "#fefb45",
+        "foreground": "#FFFC0E",
         "fontStyle": "underline"
       }
     },
